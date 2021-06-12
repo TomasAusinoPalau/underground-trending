@@ -73,22 +73,23 @@ table {
   margin-right: 8vh;
   align-items: center;
   color: #000000;
+  justify-content:
 }
 
 .header-nav-container .item {
-  display: inline-block;
+  display: flex;
   width: 100px;
-  height: 50px;
-  left: 1020px;
-  top: 75px;
   background: #E5E5E5;
 }
 
 .header-nav-text {
   text-decoration: none;
   color: black;
-  padding: 20px 15px;
+  max-width: max-content;
+  padding: 50px 50px;  
   background-color: green;
+  display: grid;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */
