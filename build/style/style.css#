@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.body-container {
+  display: grid;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Fira Sans", sans-serif;
+}
+
+#header {
+  width: 100vw;
+  height: 200px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: fixed;
+  width: 100vw;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  background: #C4C4C4;
+}
+
+.header-img-container {
+  display: grid;
+  align-content: center;
+}
+
+.nav-logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  border-radius: 50%;
+  margin-left: 5vw;
+}
+
+.header-nav-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 5vw;
+  align-items: center;
+  color: #000000;
+}
+
+.header-nav-item {
+  display: grid;
+}
+
+.header-nav-text {
+  text-decoration: none;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 5%;
+  background-color: #E5E5E5;
+  justify-self: center;
+}
+
+.main-hero {
+  background-image: url(../../source/img/bg-alexander-popov-I6U-0CydCPs-unsplash.jpg);
+  background-position: 0% 40%;
+  background-color: #464646;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr 0.75fr;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+.hero-nav-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 5vh;
+}
+
+.hero-nav-item {
+  margin: 0 5vh;
+}
+
+.hero-nav-text {
+  text-decoration: none;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 5%;
+  background-color: #E5E5E5;
+}
+
+.main-ut-description {
+  display: grid;
+  justify-content: center;
+}
+
+.ut-description-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "title title" "photo text";
+  width: 70vw;
+  min-width: 360px;
+  height: 70vh;
+}
+
+.ut-description-title {
+  display: flex;
+  align-self: flex-end;
+  justify-self: center;
+  font-size: 36px;
+}
+
+.article-img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.description-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: photo;
+}
+
+.ut-description-text {
+  width: 400px;
+  grid-area: text;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.main-music-nav {
+  width: 100vw;
+  height: 400px;
+}
+
+/*# sourceMappingURL=style.css%23.map */
